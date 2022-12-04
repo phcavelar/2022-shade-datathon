@@ -1,8 +1,13 @@
 # Output data
+**/**.csv
 **/**.pth
 **/**.xz
 **/**.gz
 **/**.tfevents.*
+
+# Add the specific label csvs
+!data/Task10_Colon/test_clean.csv
+!data/Task10_Colon/train_clean.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
