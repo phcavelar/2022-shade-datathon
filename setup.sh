@@ -32,7 +32,7 @@ else
     install_method='conda'
 fi
 
-command ${install_method} install -n ${ENV_NAME} -c pytorch -c conda-forge nibabel=4.0.2 pytorch=1.11 torchvision matplotlib pandas ipykernel ipympl ffmpeg monai tqdm tensorboard
+command ${install_method} install -n ${ENV_NAME} -c pytorch -c conda-forge nibabel=4.0.2 pytorch=1.11 torchvision matplotlib pandas ipykernel ipympl ffmpeg monai tqdm tensorboard scikit-learn
 
 echo "done"
 
