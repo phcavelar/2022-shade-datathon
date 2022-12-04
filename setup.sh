@@ -36,12 +36,3 @@ command ${install_method} install -n ${ENV_NAME} -c pytorch -c conda-forge nibab
 
 echo "done"
 
-#    - blessed==1.19.1
-#    - gpustat==1.0.0
-#    - ignite==1.1.0
-#    - monai==1.0.1
-#    - nibabel==4.0.2
-#    - nvidia-ml-py==11.495.46
-#    - torch==1.7.1+cu101
-#    - torchaudio==0.7.2
-#    - torchvision==0.8.2+cu101
