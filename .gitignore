@@ -1,3 +1,9 @@
+# Output data
+**/**.pth
+**/**.xz
+**/**.gz
+**/**.tfevents.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
